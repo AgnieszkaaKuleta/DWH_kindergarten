@@ -1,0 +1,131 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>kids</Database>
+    <Server>AGAHP</Server>
+    <ConnectionString>Data Source=AGAHP;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>DNJUr4Qifdkc4MzVQKbuCk0C/Rk=18/05/2023 15:10:0618/05/2023 15:09:05</TimeStamp>
+        <ID>
+          <String>Example</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>BPCiD8J96Qsix159UCR2YZJLKbM=18/05/2023 14:35:4018/05/2023 15:09:05</TimeStamp>
+        <ID>
+          <String>Example</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kC/9yVztdIlDdLalSLuIS8pBGY0=01/06/2023 23:24:3518/05/2023 15:09:05</TimeStamp>
+        <ID>
+          <String>DIM Additional Lesson</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ndDheyUOeng23kUof5WWxh/ZIZo=01/06/2023 14:00:1118/05/2023 15:09:05</TimeStamp>
+        <ID>
+          <String>DIM Groups</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zufu7y6oXjha/DV72jMHI4HPO6s=01/06/2023 14:00:1118/05/2023 15:09:05</TimeStamp>
+        <ID>
+          <String>DIM Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>61ff9WB5V69UTUgfwHuHzH93eIQ=01/06/2023 14:00:1118/05/2023 15:09:05</TimeStamp>
+        <ID>
+          <String>DIM Contract</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Vma2U/aHOy+RaNmqZRQzXi2tkp8=01/06/2023 14:00:1118/05/2023 15:09:05</TimeStamp>
+        <ID>
+          <String>DIM JUNK</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tAQZKtI4SU5cNMEPRVxkP4bKIko=01/06/2023 14:00:1118/05/2023 15:09:05</TimeStamp>
+        <ID>
+          <String>DIM Facility</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7pkE4FDbMLT75R3IRJBKU7BEpE4=18/05/2023 14:35:4018/05/2023 15:09:05</TimeStamp>
+        <ID>
+          <String>ApplicationGroup</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Z7ZnJXJ2KN4UoSXTrvpTEUzLmzI=18/05/2023 14:35:4018/05/2023 15:09:05</TimeStamp>
+        <ID>
+          <String>DIM_ApplicationJUNK</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ZU0olBkzg4hnNmr1GjftysNZguE=18/05/2023 21:41:1918/05/2023 15:09:05</TimeStamp>
+        <ID>
+          <String>DIM_ApplicationFacility</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>F6z2yNWd3spah8RF3cBwkZYMwnA=01/06/2023 13:52:3418/05/2023 23:34:11</TimeStamp>
+        <ID>
+          <String>DIM_application</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>79GPE2Z7W9pxuGKEu0DqUT2DRZQ=18/05/2023 23:36:5118/05/2023 23:35:29</TimeStamp>
+        <ID>
+          <String>FACT NE Wapplication</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>rXBgfii2bjr7u2d8ahAtSPa6BBE=02/06/2023 10:31:2118/05/2023 15:09:05hjkW9stwkFOP+Rs+14Ib9cCjmVs=02/06/2023 10:31:2118/05/2023 15:09:05</TimeStamp>
+        <ID>
+          <String>Example</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>J1tQERDZUnyUfqb2/dl+kdGGf5k=18/05/2023 14:35:4018/05/2023 15:09:05</TimeStamp>
+      <ID>
+        <String>kids</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-06-02T08:31:35.106667Z</LastDeployed>
+</DeploymentSnapshot>

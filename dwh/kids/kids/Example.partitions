@@ -1,0 +1,69 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4990d8e9-f8c4-44a4-bda7-12ad4d6e1ab6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Example</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>FACT Additional</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="63731c2d-0542-4826-b1c1-35ac8c0d3a25">
+          <ID>FACT Additional</ID>
+          <Name>FACT Additional</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d8aafddc-eea9-445b-97f4-061c13cdfa60">
+            <DataSourceViewID>Example</DataSourceViewID>
+            <TableID>dbo_FACT_additional</TableID>
+          </Source>
+          <StorageMode>Rolap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="512ce340-ce5a-4f9c-9e17-4b27de1dafbe">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>PT0S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Enabled>true</Enabled>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="f8a7c9e1-e83b-45e8-a203-2cad1f0cd24e">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
+          <EstimatedRows>49997</EstimatedRows>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>FACT NE Wapplication</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="5bfac862-9a95-40c3-a29f-672805ef965c">
+          <ID>FACT NE Wapplication</ID>
+          <Name>FACT NE Wapplication</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="016d8c70-7f2f-4fc9-a7db-bacd3170bb13">
+            <DataSourceViewID>Example</DataSourceViewID>
+            <TableID>dbo_FACT_NEWapplication</TableID>
+          </Source>
+          <StorageMode>Rolap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="4bcbe2ff-8b54-46b9-ab7d-abe7657a11cb">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>PT0S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Enabled>true</Enabled>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="4579e5d8-564d-4431-b5cc-51ebdb007c95">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
+          <EstimatedRows>1099732</EstimatedRows>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
